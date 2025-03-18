@@ -29,7 +29,8 @@
                     <label for="email" class="block text-sm font-medium text-gray-700">Adresse Email</label>
                     <input type="email" name="email" id="email" required 
                         class="mt-1 p-2 w-full border-2 border-teal-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600"
-                        placeholder="Entrez votre email">
+                        placeholder="Entrez votre email"
+                    >
                 </div>
 
                 <!-- Bouton de soumission -->

@@ -56,7 +56,7 @@ session_start(); // Démarre la session
         <section id="search-section" class="py-8">
             <div class="container mx-auto text-center">
                 <h2 class="text-2xl font-semibold text-teal-500">Rechercher un Livre</h2>
-                <form action="search_results.php" method="GET" class="mt-4">
+                <form action="./src/php/results/results.php" method="GET" class="mt-4">
                     <input type="text" name="query" placeholder="Rechercher par titre ou auteur..." class="p-2 w-1/2 border-2 border-teal-500 rounded-lg" required>
                     <button type="submit" class="p-2 bg-orange-600 text-white rounded-lg ml-4 hover:bg-orange-700">Rechercher</button>
                 </form>
